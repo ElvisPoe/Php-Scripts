@@ -92,7 +92,7 @@ function insertProductTest($data){
 
 
 /* Allow only this link to run the script and loop */
-if ($_SERVER['REQUEST_URI'] == "/kokkoris/prod") {
+if ($_SERVER['REQUEST_URI'] == "/prod") {
     foreach ($products as $data) {
         insertProductTest($data);
     }
